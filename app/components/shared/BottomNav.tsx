@@ -4,14 +4,14 @@ import React from 'react'
 function BottomNav() {
   return (
     <div>
-        <div>
-            <div className="text-white p-5">
+        <div className=" bg-white px-5">
+            <div className="text-[#0a0a0a] py-1">
                 <div className="flex justify-between">
                   <svg width="220" height="60" viewBox="0 0 220 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                       {/* <!-- Custom L --> */}
                       <path
                           d="M24 10V48H52"
-                          stroke="#FFFFFF"
+                          stroke="#0a0a0a"
                           strokeWidth="6"
                           strokeLinecap="round"
                           strokeLinejoin="round"
@@ -28,7 +28,7 @@ function BottomNav() {
                           fontFamily="Inter, sans-serif"
                           fontSize="32"
                           fontWeight="800"
-                          fill="#FFFFFF"
+                          fill="#0a0a0a"
                       >
                           umen
                       </text>
@@ -44,7 +44,7 @@ function BottomNav() {
               </div>
             </div>
 
-            <div className="text-white p-5 flex justify-center">
+            <div className="text-[#0a0a0a] font-bold p-5 flex justify-center">
                 <p>@MP 2026</p>
             </div>
         </div>

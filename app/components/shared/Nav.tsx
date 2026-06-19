@@ -5,10 +5,10 @@ import { ListIcon, MagnifyingGlassIcon } from "@phosphor-icons/react";
 function Nav() {
   return (
     <div>
-          <nav className="abosolute top-0 w-full text-white p-2.5 border-b-0.5 border-b-white flex flex-col gap-2.5  md:flex-row md:items-center md:justify-between">
-              <div className="flex justify-between md:gap-60">
+          <nav className="z-50 p-4  bg-black/90 fixed top-0  w-full text-white  border-b-0 border-b-white flex flex-col gap-1  md:flex-row md:items-center md:justify-between">
+              <div className="flex justify-between items-center md:gap-60">
                   <svg width="220" height="60" viewBox="0 0 220 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      {/* <!-- Custom L --> */}
+                      {/* <!-- Custom L --> */} 
                       <path
                           d="M24 10V48H52"
                           stroke="#FFFFFF"
@@ -36,10 +36,10 @@ function Nav() {
                   <ListIcon className="md:hidden" size={44} color="#ffffff" weight="bold" />
 
                   <div className="hidden md:flex md:gap-10">
-                      <button className="font-bold">Home</button>
-                      <button className="font-bold">Featured</button>
-                      <button className="font-bold">Contact</button>
-                      <button className="font-bold">FAQ</button>
+                      <button className="font-bold hover:border-b-2 hover:border-b-white ">Home</button>
+                      <button className="font-bold hover:border-b-2 hover:border-b-white ">Featured</button>
+                      <button className="font-bold hover:border-b-2 hover:border-b-white ">Contact</button>
+                      <button className="font-bold hover:border-b-2 hover:border-b-white ">FAQ</button>
                       
                   </div>
               </div>
@@ -48,8 +48,6 @@ function Nav() {
                 <input className="rounded-xl border-white outline-0 bg-white p-1.5" type="text" name="" id="" />
                 <MagnifyingGlassIcon size={35} color="#ffffff" weight="bold" />
               </div>
-
-
               
           </nav>
     </div>
