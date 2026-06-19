@@ -3,7 +3,7 @@ import Nav from "./components/shared/Nav";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#0a0a0a]">
       <Nav />
     </div>
   );
