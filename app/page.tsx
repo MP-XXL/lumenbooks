@@ -3,6 +3,7 @@ import Nav from "./components/shared/Nav";
 import BottomNav from "./components/shared/BottomNav";
 import Hero from "./components/home/Hero";
 import Explore from "./components/home/Explore";
+import Featured from "./components/home/Featured";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Nav />
       <Hero/>
       <Explore />
+      <Featured />
       <BottomNav />
     </div>
   );
