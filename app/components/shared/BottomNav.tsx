@@ -1,12 +1,12 @@
 "use client"
 import React from 'react'
-import { ListIcon, MagnifyingGlassIcon } from "@phosphor-icons/react";
 
-function Nav() {
+function BottomNav() {
   return (
     <div>
-          <nav className="abosolute top-0 w-full text-white p-2.5 border-b-0.5 border-b-white flex flex-col gap-2.5  md:flex-row md:items-center md:justify-between">
-              <div className="flex justify-between md:gap-60">
+        <div>
+            <div className="text-white p-5">
+                <div className="flex justify-between">
                   <svg width="220" height="60" viewBox="0 0 220 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                       {/* <!-- Custom L --> */}
                       <path
@@ -33,7 +33,6 @@ function Nav() {
                           umen
                       </text>
                   </svg>
-                  <ListIcon className="md:hidden" size={44} color="#ffffff" weight="bold" />
 
                   <div className="hidden md:flex md:gap-10">
                       <button className="font-bold">Home</button>
@@ -43,17 +42,14 @@ function Nav() {
                       
                   </div>
               </div>
+            </div>
 
-              <div className="flex justify-center gap-2.5">
-                <input className="rounded-xl border-white outline-0 bg-white p-1.5" type="text" name="" id="" />
-                <MagnifyingGlassIcon size={35} color="#ffffff" weight="bold" />
-              </div>
-
-
-              
-          </nav>
+            <div className="text-white p-5 flex justify-center">
+                <p>@MP 2026</p>
+            </div>
+        </div>
     </div>
   )
 }
 
-export default Nav
+export default BottomNav
