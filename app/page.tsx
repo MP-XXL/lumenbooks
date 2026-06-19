@@ -4,6 +4,7 @@ import BottomNav from "./components/shared/BottomNav";
 import Hero from "./components/home/Hero";
 import Explore from "./components/home/Explore";
 import Featured from "./components/home/Featured";
+import Contact from "./components/home/Contact";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero/>
       <Explore />
       <Featured />
+      <Contact />
       <BottomNav />
     </div>
   );
