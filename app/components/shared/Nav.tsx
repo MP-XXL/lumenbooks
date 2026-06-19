@@ -5,10 +5,10 @@ import { ListIcon, MagnifyingGlassIcon } from "@phosphor-icons/react";
 function Nav() {
   return (
     <div>
-          <nav className="absolute p-4 top-0 left-0 right-0 w-full text-white border-b-0.5 border-b-white flex flex-col gap-1  md:flex-row md:items-center md:justify-between">
+          <nav className="z-50 p-4  bg-black/90 fixed top-0  w-full text-white  border-b-0 border-b-white flex flex-col gap-1  md:flex-row md:items-center md:justify-between">
               <div className="flex justify-between items-center md:gap-60">
                   <svg width="220" height="60" viewBox="0 0 220 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      {/* <!-- Custom L --> */}
+                      {/* <!-- Custom L --> */} 
                       <path
                           d="M24 10V48H52"
                           stroke="#FFFFFF"
