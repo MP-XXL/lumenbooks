@@ -1,11 +1,14 @@
 "use client"
 import React from 'react'
 import { ListIcon, MagnifyingGlassIcon } from "@phosphor-icons/react";
+import { useRouter } from "next/navigation";
 
 function Nav() {
+
+    const router = useRouter();
   return (
     <div>
-          <nav className="z-50 p-4  bg-black/90 fixed top-0  w-full text-white  border-b-0 border-b-white flex flex-col gap-1  md:flex-row md:items-center md:justify-between">
+          <nav className="z-50 p-4  bg-black/90 fixed top-0  w-full text-white  flex flex-col gap-1  md:flex-row md:items-center md:justify-between">
               <div className="flex justify-between items-center md:gap-60">
                   <svg width="220" height="60" viewBox="0 0 220 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                       {/* <!-- Custom L --> */} 
@@ -36,8 +39,8 @@ function Nav() {
                   <ListIcon className="md:hidden" size={44} color="#ffffff" weight="bold" />
 
                   <div className="hidden md:flex md:gap-10">
-                      <button className="font-bold hover:border-b-2 hover:border-b-white ">Home</button>
-                      <button className="font-bold hover:border-b-2 hover:border-b-white ">Featured</button>
+                      <button className="font-bold hover:border-b-2 hover:border-b-white " onClick={() => router.push("/")}>Home</button>
+                      <button className="font-bold hover:border-b-2 hover:border-b-white " onClick={() => router.push("/components/books")}>Categories</button>
                       <button className="font-bold hover:border-b-2 hover:border-b-white ">Contact</button>
                       <button className="font-bold hover:border-b-2 hover:border-b-white ">FAQ</button>
                       
