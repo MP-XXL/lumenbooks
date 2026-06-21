@@ -900,3 +900,20 @@ export const books = [
     "language": "English"
   }
 ];
+
+export async function fetchBooks() {
+    await new Promise((resolve) => setTimeout(resolve, 500));
+    return [...books];
+}
+
+export async function getBookBySlug(slug: string) {
+  await new Promise((r) => setTimeout(r, 500));
+
+  return books.find((book) => book.slug === slug);
+}
+
+export async function getRecommendedBooks() {
+  await new Promise((r) => setTimeout(r, 3000));
+
+  return books.slice(0, 4);
+}

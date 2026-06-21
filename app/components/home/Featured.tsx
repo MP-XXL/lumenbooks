@@ -1,13 +1,8 @@
 import React from 'react'
 import Image from "next/image"
 import narnia from "@/public/narnia.jpg"
-import { books } from "@/lib/data";
+import { books, fetchBooks } from "@/lib/data";
 
-export async function fetchBooks() {
-  await new Promise((resolve) => setTimeout(resolve, 500));
-  return books;
-}
-   
 async function Featured() {
 
       const books = await fetchBooks();
@@ -18,16 +13,19 @@ async function Featured() {
             <h2 className="font-bold text-3xl border-b-5 pb-1 w-fit border-b-white text-white">Featured</h2>
             
                 
-            <div id="featured_grid" className="flex gap-20 overflow-x-auto my-10 p-5" >
+            <div id="featured_grid" className="flex gap-2.5 overflow-x-auto my-10 p-5" >
                 {featuredBooks.map(book =>{
-                return <div className="flex flex-col items-center" key={book.id}>
+                return <div className="flex flex-col gap-2 items-center text-center w-44 " key={book.id}>
                     <Image className="w-28 rounded-md"
-                        alt="Narnia"
-                        src={narnia}
+                        alt={book.title}
+                        src={book.coverImageUrl}
                         placeholder="blur"
+                        blurDataURL="..."
                         quality={100}
+                        width={112}
+                        height={150}
                     />
-                    <p className="text-white text-nowrap" >{book.title}</p>
+                    <p className="text-white text-wrap" >{book.title}</p>
                 </div>
                 })}
 
