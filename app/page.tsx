@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Homepage from "@/app/components/home/page"
+import Homepage from "@/app/home/page"
 
 
 export const revalidate = 3600

@@ -65,6 +65,6 @@ export async function createBook(
 });
 
   revalidatePath(
-    "/components/books"
+    "/books"
   );
 }
