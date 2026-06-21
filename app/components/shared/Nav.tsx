@@ -47,9 +47,14 @@ function Nav() {
                   </div>
               </div>
 
-              <div className="flex justify-center gap-2.5">
-                <input className="rounded-xl border-white outline-0 bg-white p-1.5" type="text" name="" id="" />
-                <MagnifyingGlassIcon size={35} color="#ffffff" weight="bold" />
+              <div className="flex items-center gap-5">
+                  <button className="font-bold hover:border-b-2 hover:border-b-white " onClick={() => router.push("/components/login")}>Login</button>
+                  <form className="flex justify-center gap-2.5">
+                      <input className="rounded-xl text-black bg-white p-1.5" type="text" name="" id="" />
+                      <button>
+                          <MagnifyingGlassIcon size={35} color="#ffffff" weight="bold" />
+                      </button>
+                  </form>
               </div>
               
           </nav>

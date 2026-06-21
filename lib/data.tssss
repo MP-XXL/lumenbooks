@@ -1,3 +1,5 @@
+
+// data.ts
 export const books = [
   {
     "id": "1",
@@ -15,8 +17,7 @@ export const books = [
     "stock": 11,
     "pages": 208,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "2",
@@ -34,8 +35,7 @@ export const books = [
     "stock": 12,
     "pages": 216,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "3",
@@ -53,8 +53,7 @@ export const books = [
     "stock": 13,
     "pages": 224,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "4",
@@ -72,8 +71,7 @@ export const books = [
     "stock": 14,
     "pages": 232,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "5",
@@ -91,8 +89,7 @@ export const books = [
     "stock": 15,
     "pages": 240,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "6",
@@ -110,8 +107,7 @@ export const books = [
     "stock": 16,
     "pages": 248,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "7",
@@ -129,8 +125,7 @@ export const books = [
     "stock": 17,
     "pages": 256,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "8",
@@ -148,8 +143,7 @@ export const books = [
     "stock": 18,
     "pages": 264,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "9",
@@ -167,8 +161,7 @@ export const books = [
     "stock": 19,
     "pages": 272,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "10",
@@ -186,8 +179,7 @@ export const books = [
     "stock": 20,
     "pages": 280,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "11",
@@ -205,8 +197,7 @@ export const books = [
     "stock": 21,
     "pages": 288,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "12",
@@ -224,8 +215,7 @@ export const books = [
     "stock": 22,
     "pages": 296,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "13",
@@ -243,8 +233,7 @@ export const books = [
     "stock": 23,
     "pages": 304,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "14",
@@ -262,8 +251,7 @@ export const books = [
     "stock": 24,
     "pages": 312,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "15",
@@ -281,8 +269,7 @@ export const books = [
     "stock": 25,
     "pages": 320,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "16",
@@ -300,8 +287,7 @@ export const books = [
     "stock": 26,
     "pages": 328,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "17",
@@ -319,8 +305,7 @@ export const books = [
     "stock": 27,
     "pages": 336,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "18",
@@ -338,8 +323,7 @@ export const books = [
     "stock": 28,
     "pages": 344,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "19",
@@ -357,8 +341,7 @@ export const books = [
     "stock": 29,
     "pages": 352,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "20",
@@ -376,8 +359,7 @@ export const books = [
     "stock": 30,
     "pages": 360,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "21",
@@ -395,8 +377,7 @@ export const books = [
     "stock": 31,
     "pages": 368,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "22",
@@ -414,8 +395,7 @@ export const books = [
     "stock": 32,
     "pages": 376,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "23",
@@ -433,8 +413,7 @@ export const books = [
     "stock": 33,
     "pages": 384,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "24",
@@ -452,8 +431,7 @@ export const books = [
     "stock": 34,
     "pages": 392,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "25",
@@ -471,8 +449,7 @@ export const books = [
     "stock": 35,
     "pages": 400,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "26",
@@ -490,8 +467,7 @@ export const books = [
     "stock": 36,
     "pages": 408,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "27",
@@ -509,8 +485,7 @@ export const books = [
     "stock": 37,
     "pages": 416,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "28",
@@ -528,8 +503,7 @@ export const books = [
     "stock": 38,
     "pages": 424,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "29",
@@ -547,8 +521,7 @@ export const books = [
     "stock": 39,
     "pages": 432,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "30",
@@ -566,8 +539,7 @@ export const books = [
     "stock": 40,
     "pages": 440,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "31",
@@ -585,8 +557,7 @@ export const books = [
     "stock": 41,
     "pages": 448,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "32",
@@ -604,8 +575,7 @@ export const books = [
     "stock": 42,
     "pages": 456,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "33",
@@ -623,8 +593,7 @@ export const books = [
     "stock": 43,
     "pages": 464,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "34",
@@ -642,8 +611,7 @@ export const books = [
     "stock": 44,
     "pages": 472,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "35",
@@ -661,8 +629,7 @@ export const books = [
     "stock": 45,
     "pages": 480,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "36",
@@ -680,8 +647,7 @@ export const books = [
     "stock": 46,
     "pages": 488,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "37",
@@ -699,8 +665,7 @@ export const books = [
     "stock": 47,
     "pages": 496,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "38",
@@ -718,8 +683,7 @@ export const books = [
     "stock": 48,
     "pages": 504,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "39",
@@ -737,8 +701,7 @@ export const books = [
     "stock": 49,
     "pages": 512,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "40",
@@ -756,8 +719,7 @@ export const books = [
     "stock": 10,
     "pages": 520,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "41",
@@ -775,8 +737,7 @@ export const books = [
     "stock": 11,
     "pages": 528,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "42",
@@ -794,8 +755,7 @@ export const books = [
     "stock": 12,
     "pages": 536,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "43",
@@ -813,8 +773,7 @@ export const books = [
     "stock": 13,
     "pages": 544,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "44",
@@ -832,8 +791,7 @@ export const books = [
     "stock": 14,
     "pages": 552,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "45",
@@ -851,8 +809,7 @@ export const books = [
     "stock": 15,
     "pages": 560,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "46",
@@ -870,8 +827,7 @@ export const books = [
     "stock": 16,
     "pages": 568,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "47",
@@ -889,8 +845,7 @@ export const books = [
     "stock": 17,
     "pages": 576,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "48",
@@ -908,8 +863,7 @@ export const books = [
     "stock": 18,
     "pages": 584,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "49",
@@ -927,8 +881,7 @@ export const books = [
     "stock": 19,
     "pages": 592,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   },
   {
     "id": "50",
@@ -946,11 +899,9 @@ export const books = [
     "stock": 20,
     "pages": 600,
     "publisher": "Various Publishers",
-    "language": "English",
-    "sellerEmail": ""
+    "language": "English"
   }
 ];
-
 
 export async function fetchBooks() {
     await new Promise((resolve) => setTimeout(resolve, 500));

@@ -5,6 +5,10 @@ import Link from "next/link";
 import { fetchBooks, getBookBySlug } from "@/lib/data";
 import RecommendedBooks from "@/app/components/books/[slug]/RecomendedBooks";
 
+
+
+
+
 export const revalidate = 3600;
 
 export async function generateStaticParams() {
@@ -15,19 +19,14 @@ export async function generateStaticParams() {
     }));
 }
 
-export async function generateMetadata({
-    params,
-}: {
-    params: Promise<{ slug: string }>;
-}) {
+export async function generateMetadata({params}: {params: Promise<{ slug: string }>;}) { 
     const { slug } = await params;
 
     const book = await getBookBySlug(slug);
 
     if (!book) {
-        return {
-            title: "Book Not Found",
-        };
+        notFound()
+      
     }
 
     return {
