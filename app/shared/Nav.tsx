@@ -2,6 +2,7 @@
 import React from 'react'
 import { ListIcon, MagnifyingGlassIcon } from "@phosphor-icons/react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 function Nav() {
 
@@ -40,15 +41,14 @@ function Nav() {
 
                   <div className="hidden md:flex md:gap-10">
                       <button className="font-bold hover:border-b-2 hover:border-b-white " onClick={() => router.push("/")}>Home</button>
-                      <button className="font-bold hover:border-b-2 hover:border-b-white " onClick={() => router.push("/components/books")}>Categories</button>
-                      <button className="font-bold hover:border-b-2 hover:border-b-white ">Contact</button>
+                      <button className="font-bold hover:border-b-2 hover:border-b-white " onClick={() => router.push("/books")}>Categories</button>
+                      <Link href="#contact-page" className="font-bold hover:border-b-2 hover:border-b-white  text-white transition active:scale-90">Contact</Link>
                       <button className="font-bold hover:border-b-2 hover:border-b-white ">FAQ</button>
-                      
                   </div>
               </div>
 
               <div className="flex items-center gap-5">
-                  <button className="font-bold hover:border-b-2 hover:border-b-white " onClick={() => router.push("/components/login")}>Login</button>
+                  <button className="font-bold hover:border-b-2 hover:border-b-white " onClick={() => router.push("/login")}>Login</button>
                   <form className="flex justify-center gap-2.5">
                       <input className="rounded-xl text-black bg-white p-1.5" type="text" name="" id="" />
                       <button>

@@ -60,9 +60,9 @@ async function Catalog({ searchParams }: Props) {
 
 
     return (
-        <div className="flex flex-col gap-2.5 bg-[#0a0a0a]  py-20">
+        <div id="contact-page" className="flex flex-col gap-2.5 bg-[#0a0a0a]  py-20">
             <div className="flex gap-10 p-4">
-                <Link href="/components/books" className="text-white font-bold  transition active:scale-90">All</Link>
+                <Link href="/books" className="text-white font-bold  transition active:scale-90">All</Link>
 
                 <form className="relative group">
                     <label className="text-white font-bold cursor-pointer">
@@ -73,7 +73,7 @@ async function Catalog({ searchParams }: Props) {
                         {categories.map((category) => (
                             <p key={category}>
                                 <Link
-                                    href={`/components/books?category=${category}`}
+                                    href={`/books?category=${category}`}
                                     className="text-white hover:text-amber-400"
                                 >
                                     {category}
@@ -92,7 +92,7 @@ async function Catalog({ searchParams }: Props) {
                         {sortsCategories.map((sortCat) => (
                             <p key={sortCat}>
                                 <Link
-                                    href={`/components/books?sort=${sortCat}`}
+                                    href={`/books?sort=${sortCat}`}
                                     className="text-white hover:text-amber-400"
                                 >
                                     {sortCat}
@@ -110,7 +110,7 @@ async function Catalog({ searchParams }: Props) {
                     books.map(book => {
 
 
-                        return <Link href={`/components/books/${book.slug}`} key={book.id}>
+                        return <Link href={`/books/${book.slug}`} key={book.id}>
                             <div className="flex flex-col items-center gap-2 py-5" key={book.id}>
                                 <Image className="w-28 rounded-md shadow-sm shadow-amber-50"
                                     alt={book.title}
