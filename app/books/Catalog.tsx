@@ -61,7 +61,7 @@ async function Catalog({ searchParams }: Props) {
 
     return (
         <div id="contact-page" className="flex flex-col gap-2.5 bg-[#0a0a0a]  py-20">
-            <div className="flex gap-10 p-4">
+            <div className="hidden md:flex gap-10 p-4">
                 <Link href="/books" className="text-white font-bold  transition active:scale-90">All</Link>
 
                 <form className="relative group">
@@ -101,6 +101,52 @@ async function Catalog({ searchParams }: Props) {
                         ))}
                     </div>
                 </form>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-4 p-4 md:hidden">
+                <Link
+                    href="/books"
+                    className="text-white font-bold">
+                    All
+                </Link>
+
+                <details className="relative">
+                    <summary className="text-white font-bold cursor-pointer list-none">
+                        Categories
+                    </summary>
+
+                    <div className="absolute bg-[#1E1E1E] p-3 rounded-md mt-2 min-w-[180px] z-50">
+                        {categories.map((category) => (
+                            <p key={category}>
+                                <Link
+                                    href={`/books?category=${category}`}
+                                    className="text-white hover:text-amber-400"
+                                >
+                                    {category}
+                                </Link>
+                            </p>
+                        ))}
+                    </div>
+                </details>
+
+                <details className="relative">
+                    <summary className="text-white font-bold cursor-pointer list-none">
+                        Sort
+                    </summary>
+
+                    <div className="absolute bg-[#1E1E1E] p-3 rounded-md mt-2 min-w-[180px] z-50">
+                        {sortsCategories.map((sortCat) => (
+                            <p key={sortCat}>
+                                <Link
+                                    href={`/books?sort=${sortCat}`}
+                                    className="text-white hover:text-amber-400"
+                                >
+                                    {sortCat}
+                                </Link>
+                            </p>
+                        ))}
+                    </div>
+                </details>
             </div>
 
             <div className="text-white md:flex justify-between items-center gap-20">
