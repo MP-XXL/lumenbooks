@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from "next/image"
-import narnia from "@/public/narnia.jpg"
 import { books, fetchBooks } from "@/lib/data";
 
 async function Featured() {

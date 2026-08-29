@@ -115,7 +115,7 @@ async function Catalog({ searchParams }: Props) {
                         Categories
                     </summary>
 
-                    <div className="absolute bg-[#1E1E1E] p-3 rounded-md mt-2 min-w-[180px] z-50">
+                    <div className="absolute bg-[#1E1E1E] p-3 rounded-md mt-2 min-w-45 z-50">
                         {categories.map((category) => (
                             <p key={category}>
                                 <Link
@@ -134,7 +134,7 @@ async function Catalog({ searchParams }: Props) {
                         Sort
                     </summary>
 
-                    <div className="absolute bg-[#1E1E1E] p-3 rounded-md mt-2 min-w-[180px] z-50">
+                    <div className="absolute bg-[#1E1E1E] p-3 rounded-md mt-2 min-w-45 z-50">
                         {sortsCategories.map((sortCat) => (
                             <p key={sortCat}>
                                 <Link
